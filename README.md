@@ -16,7 +16,6 @@ Xcode 7.2 Project
 
 ## Usage
 
-https://github.com/adamteale/crashdetector/blob/master/
 ![ScreenShot](https://github.com/adamteale/crashdetector/blob/master/screenshots/IMG_5624.jpg)
 ![ScreenShot](https://github.com/adamteale/crashdetector/blob/master/screenshots/IMG_5625.jpg)
 
