@@ -3,6 +3,7 @@
 "crashDetector" is an iOS app written in Swift (updated to Swift 2.0) with 
 the intention of graphing accelerometer data provided by the
 CoreMotion framework's CMMotionManager.
+
 The app maintains the last 10 seconds of motion to keep
 track of the maximum force on each vector.
 
@@ -14,7 +15,11 @@ http://www.raywenderlich.com/90693/modern-core-graphics-with-swift-part-2
 Xcode 7.2 Project
 
 ## Usage
-TODO: Write usage instructions
+
+https://github.com/adamteale/crashdetector/blob/master/
+![ScreenShot](https://github.com/adamteale/crashdetector/blob/master/screenshots/IMG_5624.jpg)
+![ScreenShot](https://github.com/adamteale/crashdetector/blob/master/screenshots/IMG_5625.jpg)
+
 ## Contributing
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
