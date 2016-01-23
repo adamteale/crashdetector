@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CA1E88E81B9E1E9D00FE2B3C /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1E88E71B9E1E9D00FE2B3C /* GraphView.swift */; settings = {ASSET_TAGS = (); }; };
-		CA1E88EA1B9E2A7F00FE2B3C /* UserAccelerationEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1E88E91B9E2A7F00FE2B3C /* UserAccelerationEntry.swift */; settings = {ASSET_TAGS = (); }; };
+		CA1E88E81B9E1E9D00FE2B3C /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1E88E71B9E1E9D00FE2B3C /* GraphView.swift */; };
+		CA1E88EA1B9E2A7F00FE2B3C /* UserAccelerationEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1E88E91B9E2A7F00FE2B3C /* UserAccelerationEntry.swift */; };
 		CAFB191D1B8DEFB400DEB0CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFB191C1B8DEFB400DEB0CF /* AppDelegate.swift */; };
 		CAFB191F1B8DEFB400DEB0CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFB191E1B8DEFB400DEB0CF /* ViewController.swift */; };
 		CAFB19221B8DEFB400DEB0CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAFB19201B8DEFB400DEB0CF /* Main.storyboard */; };
@@ -184,7 +184,7 @@
 		CAFB190F1B8DEFB400DEB0CF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftMigration = 0700;
+				LastSwiftMigration = 0720;
 				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Adam Teale";

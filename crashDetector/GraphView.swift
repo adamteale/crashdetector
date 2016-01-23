@@ -67,7 +67,7 @@ import UIKit
         let graphHeight = height - topBorder - bottomBorder
         
         let columnXPoint = { (column:Int) -> CGFloat in
-            print("Hola X")
+            print("Hola X", terminator: "")
             //Calculate gap between points
             var spacer = CGFloat(0.0)
             
