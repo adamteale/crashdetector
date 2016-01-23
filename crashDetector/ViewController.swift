@@ -2,14 +2,15 @@
 //  ViewController.swift
 //  crashDetector
 //
+// "crashDetector" is an iOS app written in Swift (updated to Swift 2.0) with
+// the intention of graphing accelerometer data provided by the CoreMotion framework's CMMotionManager.
+// The app maintains the last 10 seconds of motion to keep track of the maximum force on each vector.
 //  Created by Adam Teale on 26/08/2015.
-//  Copyright (c) 2015 Adam Teale. All rights reserved.
+//  Copyright (c) 2016 Adam Teale. All rights reserved.
 //
 
 import UIKit
 import CoreMotion
-
-
 
 
 class ViewController: UIViewController {
@@ -19,16 +20,17 @@ class ViewController: UIViewController {
     @IBOutlet weak var gforceLabelY: UILabel!
     @IBOutlet weak var gforceLabelZ: UILabel!
 
-
+    // graphViwe class for creating the graph
     @IBOutlet weak var graphView: GraphView!
     
+    // Core Motion Manager
     let manager = CMMotionManager()
     
     var managerUpdateInterval = 0.2
     var currentMaxGforce = CMAcceleration(x: 0.0, y: 0.0, z: 0.0)
 
+    // UserAccelerationEntry class to store the current force on vector
     var currentUserAccelerationEntry = UserAccelerationEntry()
-    
     
     //maxEntries = samples/sec * numberOfSeconds
     var maxEntries = Int((1 / 0.2) * 20)
@@ -138,6 +140,7 @@ class ViewController: UIViewController {
     
     
     func startDetecting(){
+        
         if self.manager.deviceMotionAvailable {
             
             print("start detecting motion...", terminator: "")

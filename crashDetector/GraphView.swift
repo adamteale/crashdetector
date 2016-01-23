@@ -2,16 +2,18 @@ import UIKit
 
 @IBDesignable class GraphView: UIView {
     
+    // The technique for graphing the data uses this tutorial from Ray Wenderlich's
+    // "Core Graphics Tutorial Part 2: Gradients and Contexts":
+    // http://www.raywenderlich.com/90693/modern-core-graphics-with-swift-part-2
     
-    //1 - the properties for the gradient
+    // 1 - the properties for the gradient - makes them available in the Storyboard
     @IBInspectable var startColor: UIColor = UIColor.redColor()
     @IBInspectable var endColor: UIColor = UIColor.greenColor()
     
-
-    //Array of UserAccelerationEntry entries
+    // Array of UserAccelerationEntry entries
     var graphPoints:[UserAccelerationEntry] = []
     
-    
+    // Arrays to store each vector's entries
     var xaxisEntries : [Double] = []
     var yaxisEntries : [Double] = []
     var zaxisEntries : [Double] = []
